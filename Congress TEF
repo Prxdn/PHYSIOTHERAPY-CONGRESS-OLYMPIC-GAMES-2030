@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alpes Congress 2030</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #3e93b0;
+            color: white;
+            padding: 20px 10px;
+            text-align: center;
+        }
+        header img {
+            max-height: 80px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #1e5c75;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .hero {
+            text-align: center;
+            background-color: #3e93b0;
+            color: white;
+            padding: 50px 20px;
+        }
+        .hero h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        section {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 20px auto;
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #1e5c75;
+            color: white;
+        }
+        .cta {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .cta a {
+            background-color: #3e93b0;
+            color: white;
+            text-decoration: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+        .cta a:hover {
+            background-color: #1e5c75;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="logo.png" alt="Logo Alpes Congress 2030">
+        <h1>Alpes Congress 2030</h1>
+    </header>
+    <nav>
+        <a href="#about">À propos</a>
+        <a href="#registration">Inscription</a>
+        <a href="#program">Programme</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="hero">
+        <h1>Bienvenue à Val Thorens</h1>
+        <p>Rejoignez-nous pour le congrès incontournable dédié aux professionnels du sport et de la santé en montagne.</p>
+        <div class="cta">
+            <a href="#registration">Inscrivez-vous dès maintenant</a>
+        </div>
+    </div>
+    <section id="about">
+        <h2>À propos du congrès</h2>
+        <p>Le Alpes Congress 2030 rassemble des experts en santé, sport et innovation dans le cadre exceptionnel de Val Thorens. Ce lieu unique offre des infrastructures modernes pour un événement inoubliable.</p>
+    </section>
+    <section id="registration">
+        <h2>Inscription</h2>
+        <p>Découvrez nos options tarifaires :</p>
+        <ul>
+            <li>Entrée normale : 600 € par jour ou 1620 € pour 3 jours</li>
+            <li>Entrée VIP : 850 € par jour ou 2295 € pour 3 jours</li>
+        </ul>
+        <div class="cta">
+            <a href="#">Formulaire d'inscription</a>
+        </div>
+    </section>
+    <section id="program">
+        <h2>Programme</h2>
+        <p>Explorez les sessions, ateliers et conférences animés par des experts de renommée internationale.</p>
+    </section>
+    <section id="contact">
+        <h2>Contactez-nous</h2>
+        <p>Pour toute question, n'hésitez pas à nous écrire à : contact@alpescongress2030.com</p>
+    </section>
+    <footer>
+        <p>&copy; 2024 Alpes Congress 2030. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
